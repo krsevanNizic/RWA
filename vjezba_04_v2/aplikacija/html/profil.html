@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dokumentacija</title>
+        <meta charset="UTF-8" />
+        <link href="matnovak.css" rel="stylesheet" type="text/css" /> 
+        <script src="/js/profil.js"></script>
+    </head>
+    <body>
+       <header>Profil</header> 
+       <nav>#navigacija#</nav>
+       <main>
+           <!-- Dodajte ovaj element s ID-om "sadrzaj" -->
+           <div id="sadrzaj"></div>
+
+           <!-- Dodajte ovaj element s ID-om "poruka" -->
+           <div id="poruka"></div>
+
+           <div id="forma">
+            <h2>Uredi podatke</h2>
+            <form id="formaUredivanje">
+                <label for="imeInput">Ime:</label>
+                <input type="text" id="imeInput" name="imeInput" >
+                <label for="prezimeInput">Prezime:</label>
+                <input type="text" id="prezimeInput" name="prezimeInput" >
+                <label for="datumRodjenjaInput">Datum rođenja:</label>
+                <input type="date" id="datumRodjenjaInput" />
+                <label for="drzavaInput">Država:</label>
+                <input type="text" id="drzavaInput" />
+               
+            
+                <button type="submit" id="gumbSpremi">Ažuriraj podatke</button>
+            </form>
+            
+       </main>
+       <footer></footer>
+    </body>
+</html>

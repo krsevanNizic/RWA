@@ -1,0 +1,20 @@
+{
+	"name": "vjezba_03",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.mjs",
+	"scripts": {
+		"pripremi": "npm link --save express sqlite3 express-session cookie-parser",
+		"debug": "nodemon server.mjs rwa_lnizic21_conf.csv",
+		"start": "node server.mjs rwa_lnizic21_conf.csv",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Matija Novak",
+	"license": "ISC",
+	"dependencies": {
+		"cookie-parser": "file:../../../../../usr/lib/node_modules/cookie-parser",
+		"express": "file:../../../../../usr/lib/node_modules/express",
+		"express-session": "file:../../../../../usr/lib/node_modules/express-session",
+		"sqlite3": "file:../../../../../usr/lib/node_modules/sqlite3"
+	}
+}
